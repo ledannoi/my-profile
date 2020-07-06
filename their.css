@@ -1,0 +1,110 @@
+/* Colors and Fonts */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	}
+
+h1 {
+	color: #f08a5d;
+	font-weight: 700;
+	letter-spacing: 8px;
+	font-size: 50px;
+}
+
+h2 {
+	color: blue;
+	font-weight: 400;
+	letter-spacing: 8px;
+	font-size: 30px;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: pink;
+	display: block;
+}
+
+
+/* Custom design class and Id */
+
+.container {
+	text-align: center;
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 10px 0px;
+
+}
+
+
+#logo {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: blue;
+	color: pink;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	color: red;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: blue;
+
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+
+	}
+}
+
+
+
